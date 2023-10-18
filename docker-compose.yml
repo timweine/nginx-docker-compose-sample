@@ -6,6 +6,6 @@ services:
     volumes:
       - ./templates:/etc/nginx/templates
     ports:
-      - "8013:80"
+      - "8014:80"
     environment:
       - NGINX_PORT=80
